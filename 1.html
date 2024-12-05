@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách học sinh</title>
+    <style>
+        .image-gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+
+        .image-gallery img {
+            width: 40%;
+            max-width: auto; 
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+        .container {
+            display: flex;
+            justify-content: center; 
+            gap: 15px; 
+            flex-wrap: wrap; 
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        h1 {
+            text-align: center;
+        }
+        body {
+            background: linear-gradient(to right, #dfdfbd,#dada81, #d6d65d, #ebeb9f);
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="color: red; background-color: #98FB98; border: 2px solid #C1FFC1; border-radius: 15px; padding: 10px;">Danh sách học sinh lớp 3 năm</h1>
+    <div class="container">
+    <table>
+        <thead>
+            <th colspan="4" style="text-align: center; background-color: #FF0033;">DANH SÁCH 10A1</th>
+          </thead>
+        <thead>
+            <tr >
+                <th >Tên</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #B0E0E6;"><td>1.Alai</td><td>Nữ</td><td>14/10/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>2.Alăo</td><td>Nữ</td><td>04/08/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>3.Hồ Đặng Thanh Báu</td><td>Nam</td><td>29/03/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>4.Ly Băng</td><td>Nữ</td><td>07/09/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>5.Yong Ry Bănh</td><td>Nữ</td><td>30/05/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>6.Bữu</td><td>Nam</td><td>12/12/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>7.Su - Chơn</td><td>Nữ</td><td>14/08/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>8.Nguyễn Duy Đức</td><td>Nam</td><td>05/11/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>9.Trần Thị Hậu Giang</td><td>Nữ</td><td>17/03/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>10.Glư̆nh</td><td>Nam</td><td>04/02/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>11.Glǒi</td><td>Nữ</td><td>04/03/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>12.Phan Thanh Hằng</td><td>Nữ</td><td>09/01/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>13.Huưn</td><td>Nam</td><td>01/06/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>14.Ngô Thị Diễm Hương</td><td>Nữ</td><td>07/02/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>15.Na - Ta - Hyê</td><td>Nữ</td><td>12/01/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>16.Hyêng</td><td>Nữ</td><td>02/06/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>17.Khanh</td><td>Nữ</td><td>13/09/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>18.Trần Tấn Khoa</td><td>Nam</td><td>06/10/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>19.Khyiu</td><td>Nam</td><td>04/12/2006</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>20.Lat</td><td>Nữ</td><td>09/01/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>21.Lê Nguyễn Phương Linh</td><td>Nữ</td><td>27/03/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>22.NGUYỄN PHÚC LỘC</td><td>Nam</td><td>23/02/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>23.Môis</td><td>Nam</td><td>28/12/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>24.Mus</td><td>Nam</td><td>20/06/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>25.Trần Huỳnh Thảo My</td><td>Nữ</td><td>06/03/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>26.Neo</td><td>Nữ</td><td>21/09/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>27.Hoàng Thành Nguyên</td><td>Nam</td><td>15/06/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>28.Nguyễn Ngọc Yến Nhi</td><td>Nữ</td><td>17/08/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>29.Đào Thị Hồng Nhung</td><td>Nữ</td><td>02/11/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>30.Phyên</td><td>Nam</td><td>25/02/2005</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>31.Lê Nguyễn Tú Quyên</td><td>Nữ</td><td>30/04/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>32.Duong nhat quyen</td><td>Nam</td><td>12/12/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>33.Ri-A</td><td>Nữ</td><td>01/01/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>34.Võ Minh Tài</td><td>Nam</td><td>11/09/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>35.Thùy Tâm</td><td>Nữ</td><td>29/10/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>36.Thar</td><td>Nữ</td><td>03/07/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>37.Hoàng Thị Thu Thảo</td><td>Nữ</td><td>17/04/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>38.Nguyễn Hoài Thu Thảo</td><td>Nữ</td><td>12/09/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>39.Thăm</td><td>Nữ</td><td>21/03/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>40.Đinh Thị Mai Thăn</td><td>Nữ</td><td>01/01/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>41.Thơi</td><td>Nữ</td><td>03/01/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>42.Tran</td><td>Nữ</td><td>10/04/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>43.Hồ Thị Thanh Trà</td><td>Nữ</td><td>22/11/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>44.Trần Quốc Trung</td><td>Nam</td><td>02/05/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>45.Trần Ngọc Tuấn</td><td>Nam</td><td>18/02/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>46.Tuê̆</td><td>Nữ</td><td>01/01/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>47.Hoàng Văn Tùng</td><td>Nam</td><td>25/02/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>48.Li – Ya</td><td>Nữ</td><td>01/11/2007</td></tr>
+            <tr style="background-color: #B0E0E6;"><td>49.Yen</td><td>Nữ</td><td>10/04/2007</td></tr>
+            <tr style="background-color:#FFE4E1;"><td>50.Yuel</td><td>Nữ</td><td>04/08/2007</td></tr>
+            <th colspan="4" style="text-align: center; color: #36648B;">DANH SÁCH ĐƯỢC LẤY Ở EDU.ONE</th>
+        </tbody>
+    </table>
+        <table>
+        <thead>
+            <th colspan="4" style="text-align: center; background-color: #FF3366;">DANH SÁCH 11B1</th>
+          </thead>
+        <thead>
+            <tr>
+                <th>Tên</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #FFDAB9;"><td>1.Alăo</td><td>Nữ</td><td>04/08/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>2.Hồ Đặng Thanh Báu</td><td>Nam</td><td>29/03/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>3.Ly Băng</td><td>Nữ</td><td>07/09/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>4.Yong Ry Bănh</td><td>Nữ</td><td>30/05/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>5.Su - Chơn</td><td>Nữ</td><td>14/08/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>6.Trần Thị Hậu Giang</td><td>Nữ</td><td>17/03/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>7.Glư̆nh</td><td>Nam</td><td>04/02/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>8.Glǒi</td><td>Nữ</td><td>04/03/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>9.Huưn</td><td>Nam</td ><td>01/06/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>10.Ngô Thị Diễm Hương</td><td>Nữ</td><td>07/02/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>11.Na - Ta - Hyê</td><td>Nữ</td><td>12/01/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>12.Khanh</td><td>Nữ</td><td>13/09/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>13.Trần Tấn Khoa</td><td>Nam</td><td>06/10/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>14.Lat</td><td>Nữ</td><td>09/01/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>15.Lê Nguyễn Phương Linh</td><td>Nữ</td><td>27/03/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>16.Môis</td><td>Nam</td><td>28/12/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>17.Mus</td><td>Nam</td ><td>20/06/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>18.Trần Huỳnh Thảo My</td><td>Nữ</td><td>06/03/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>19.Nguyễn Ngọc Yến Nhi</td><td>Nữ</td><td>17/08/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>20.Đào Thị Hồng Nhung</td><td>Nữ</td><td>02/11/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>21.Lê Nguyễn Tú Quyên</td><td>Nữ</td><td>30/04/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>22.Duong nhat quyen</td><td>Nam</td><td>12/12/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>23.Ri-A</td><td>Nữ</td><td>01/01/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>24.Võ Minh Tài</td><td>Nam</td><td>11/09/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>25.Thùy Tâm</td><td>Nữ</td><td>29/10/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>26.Hoàng Thị Thu Thảo</td><td>Nữ</td><td>17/04/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>27.Nguyễn Hoài Thu Thảo</td><td>Nữ</td><td>12/09/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>28.Thăm</td><td>Nữ</td><td>21/03/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>29.Đinh Thị Mai Thăn</td><td>Nữ</td><td>01/01/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>30.Thơi</td><td>Nữ</td><td>03/01/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>31.Tran</td><td>Nữ</td><td>10/04/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>32.Hồ Thị Thanh Trà</td><td>Nữ</td><td>22/11/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>33.Trần Quốc Trung</td><td>Nam</td><td>02/05/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>34.Trần Ngọc Tuấn</td><td>Nam</td><td>18/02/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>35.Hoàng Văn Tùng</td><td>Nam</td><td>25/02/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>36.Li – Ya</td><td>Nữ</td><td>01/11/2007</td></tr>
+            <tr style="background-color: #FFDAB9;"><td>37.Yen</td><td>Nữ</td><td>10/04/2007</td></tr>
+            <tr style="background-color: #98FB98;"><td>38.Yuel</td><td>Nữ</td><td>04/08/2007</td></tr>
+            <th colspan="4" style="text-align: center; color: #36648B;">DANH SÁCH ĐƯỢC LẤY Ở EDU.ONE</th>
+        </tbody>
+    </table>
+        <table>
+        <thead>
+            <th colspan="4" style="text-align: center; background-color: #FF33CC;">DANH SÁCH 12C1</th>
+          </thead>
+        <thead>
+            <tr>
+                <th>Tên</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #cefa77;"><td>1.Alăo</td><td>Nữ</td><td>04/08/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>2.Hồ Đặng Thanh Báu</td><td>Nam</td><td>29/03/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>3.Ly Băng</td><td>Nữ</td><td>07/09/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>4.Yong Ry Bănh</td><td>Nữ</td><td>30/05/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>5.Su - Chơn</td><td>Nữ</td><td>14/08/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>6.Trần Thị Hậu Giang</td><td>Nữ</td><td>17/03/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>7.Glư̆nh</td><td>Nam</td><td>04/02/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>8.Glǒi</td><td>Nữ</td><td>04/03/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>9.Huưn</td><td>Nam</td><td>01/06/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>10.Ngô Thị Diễm Hương</td><td>Nữ</td><td>07/02/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>11.Na - Ta - Hyê</td><td>Nữ</td><td>12/01/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>12.Khanh</td><td>Nữ</td><td>13/09/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>13.Trần Tấn Khoa</td><td>Nam</td><td>06/10/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>14.Lat</td><td>Nữ</td><td>09/01/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>15.Lê Nguyễn Phương Linh</td><td>Nữ</td><td>27/03/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>16.Môis</td><td>Nam</td><td>28/12/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>17.Mus</td><td>Nam</td><td>20/06/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>18.Trần Huỳnh Thảo My</td><td>Nữ</td><td>06/03/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>19.Nguyễn Ngọc Yến Nhi</td><td>Nữ</td><td>17/08/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>20.Đào Thị Hồng Nhung</td><td>Nữ</td><td>02/11/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>21.Lê Nguyễn Tú Quyên</td><td>Nữ</td><td>30/04/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>22.Duong nhat quyen</td><td>Nam</td><td>12/12/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>23.Ri-A</td><td>Nữ</td><td>01/01/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>24.Võ Minh Tài</td><td>Nam</td><td>11/09/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>25.Thùy Tâm</td><td>Nữ</td><td>29/10/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>26.Hoàng Thị Thu Thảo</td><td>Nữ</td><td>17/04/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>27.Nguyễn Hoài Thu Thảo</td><td>Nữ</td><td>12/09/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>28.Thăm</td><td>Nữ</td><td>21/03/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>29.Đinh Thị Mai Thăn</td><td>Nữ</td><td>01/01/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>30.Thơi</td><td>Nữ</td><td>03/01/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>31.Tran</td><td>Nữ</td><td>10/04/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>32.Hồ Thị Thanh Trà</td><td>Nữ</td><td>22/11/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>33.Trần Quốc Trung</td><td>Nam</td><td>02/05/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>34.Trần Ngọc Tuấn</td><td>Nam</td><td>18/02/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>35.Li – Ya</td><td>Nữ</td><td>01/11/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>36.Yen</td><td>Nữ</td><td>10/04/2007</td></tr>
+            <tr style="background-color: #cefa77;"><td>37.Yuel</td><td>Nữ</td><td>04/08/2007</td></tr>
+            <tr style="background-color: #FFE1FF"><td>38.Hoàng Thành Nguyên</td><td>Nữ</td><td>04/08/2007</td></tr>
+            <th colspan="4" style="text-align: center; color: #36648B;">DANH SÁCH ĐƯỢC LẤY Ở <a style="color: #8B0000;"  href="https://thptnguyenthiminhkhai.gialai.edu.vn/tin-tuc-su-kien/hoat-dong-su-kien/danh-sach-hoc-sinh-cac-lop-khoi-10-11-12-nam-hoc-2024-2025-truong-thpt-nguyen-thi-minh-khai..html">ĐÂY</a></th>
+        </tbody>
+    </table>
+    </div>
+    <h1 style="color: rgb(224, 198, 216); background-color: #4c974c; border: 2px solid #C1FFC1; border-radius: 15px; padding: 10px;">Một số hình ảnh lớp 12C1</h1>
+    <div class="image-gallery">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEis-CT9N4UhUkm2bPv_WbWFLK6tE1fpOOjXpC5i5OcP21MDaWiccaa5T5g4w2zXyXeIm9BwBAtXgo85HLTnMRG6spiVmeDch07Qs6-obPyKCMLANQa8XRzNQKneeqmozNn8osB6_WxQw7MFkvAk3VqXP1wOZ2_aoe7odTxi-BJFyj7rZRG2W9CJRO_H9t4" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiYGRQh9cMSBmSfpZOoZUw2xTzZ7Th4L7wnUanOEW7djsyITFsRMYYh2-LyBLh6CQbEU0m6F-YQCmPA8kQEO61So-jyPAc05d7Rf_QSIU-5Fervb4YUsXHeZQEmPTb3Zh8G3S9XbouS3K_yQrjNlZNHugdxvJ2VdHz3tnl0k5Igw15OQY6ak_BRUvIQLc8" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgPohlUD0NUacpQXLH-CpyKGuta78QgvcToeUeFahcGfA4MgoV3eHOa5ccOU4mQn0AXJxKqUTKEl8ciKWsVG8DekYAmlYe1sXFWm4rDmC88_3FT9bbitPHIc0X1D272bjgBZYvipW8cjE-d2KUnPIhBRCgJKi12mweBBlFGlu56SmVI_Xg9Oz33NrXyIRA" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjtiI2RdhCoCXezh9NUXjEzM02Qxz4dmoirEa0qGs_GWUM95IZDgHLflI0j4-7xor4sejbEl-Yn8YaAPDlLBee7f77ol7U5ipBSaHaNF-RcytlxlHxhdx1Tv0Gg1_3aXZP-WSvgWevDu09Yt3XSI6MCbt-FXgPQvjL7zCf6dU355PF0xjvF9err6DHpwKw" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiBNKBcG7FukblkoJncYH_FZkCgqo0NA9d3isettLX85vxhULZXalmiAAlatKGXOPyiDOjNjgpArtNfK57-IOEPLKYzqoe3B7-7zmAVmRwmMJK89ELG0-knh4AZ5JMbQMpDiu7IrlWKvMh5VnY1_EWLOe8E7EL0KJLALw89VsYF18dFPc_Mj7ecMENNY7s" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEh6dTsBG0RJAE9EZvFvm-kXUPksFNEOxZnbbKf8iFsyn5MOg1EgYjOADeM_OZaAD6hDeJgaW75qNktoQQxnV01UQZA4mlIn6lWNeznLqOkLAHTW0d_56woSx64X6d0n0FPuVbAojWxDDZ-kDBb8j39RUkQH_CMV_6myHkop4l-m3cWfHaB1uVEw8trqGjA" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhSwVR3EKDlzMlEPzABBVWTnl4SmRiGCKBj5vDT9bw4DnFqjNLiowrLLgerIONue20E4BZ4vL770gsiRubZhBLCRnLjGB7wTgVYMn7s86SpZusbWmHatq1z1JZW318LNjXNl4XsowFwZSGH3CrMTQyQBrq_RJdOiQDmJr5lOTz1ruMEhJKHIU07aVip_sY" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgaa7EUJ82pgjU5RX6b3vtTK4vsuWYoTPig4xpgoWX2QEckEPBceGC-64XE5fmKw9AkWGkyYKMBetWV83AYdZ2g_EfK0X88cvHSDvoSu9CdahkE1gRJP1HT7VRla9azjWWQCPl5P1Vv2CjxnxLHW_MHjHiEQ8_ZsGf9-ozuuZHyX92JrOIN3gRR2NLogHA" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiyFIsDiG1Bggh5gmwYYGDelbd6sZKQO4ijlB07ZevvRSE0VP1-8asspTbmG2sSo1WzWt3od0VYpN-8a07OVx9aY-P2YoL4Kx14QjEB2ljO-m1Xuw9LsiQZ-cW4exPxBQ4C4X83HfSKD0Gz3olXWkWY2uRI0BRjDzOF4i3HBc76UmsWFhKE5DyFZrT9Hzs" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEh2_jhAv-AjrSoB7gN5xH1sJfsBOHwlyk4JwvkDPynj9LS0xMeLCVelJqHvlCDqQrV0efH55fatEbBF8M7c5SMUc6KnOGAp_FliItiaqof0OIdmhdbkpzOWChPVGsC_i0p6ys3_u6DDjeJ7C5SyWmm-7Bw3rMP1uN_6dsFr8dCqGaemv-7Oafq7EZW3W0I" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj6SOftKYobEft_LgX4uGJ9nz9ivu00vD3nYUn4FAV7eM_HxAv9Qw7gxxkgSpVdhUPNPAk7h37Up4LypKy36piKp72ezY8VMRUfpR5zPpFT4R7tuCI_2YhQqK6rKp93zWpE57IPOcC36anFscYZY0VMicFsPvnCJjxHns_VGWiddIVXzDtD5iwXp-xvCYk" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgs5txZs--_Toszn_tFO_LqsyZbulk_ZgDV8NNlyTDEY4pEh0p3hBm_YY0NgXIupHlBu3NfOQt1MU8bGihZkUiLTLyuQXwAJjfGwLFgC9dGyuxgMyjNebBqcEcbP1mBa1WXcbg56fJ7FL_U93j7A2nuW5RT_laTjf-iGCwly2Hj_r6pYxOxEqkmqsM2t3Y" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhCsM27Metw0bDnx8UjlJHp4VD9AFBCXX8RdNnBDqeQOTRPRMUNLjr8gHFpVoU8N1Sd_XmHfH7GrgvhisS0WPmaL6UNe62jV52bD4jCtNS7vMAXN_yaDU_-qw-WTH7OGKAk0FWuq-ycVYATy5MB_3Vek01zdHedhh7xIKt5V8fiJfsPIsws2fWX932KkBY" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgf0-JMvn--tfP4QDH6dN0mpdsv-vf_CaIiwmv8SPGge2-yLx2VBptsiMU4My03-EOm8Zel7_rPJvCvJDMHMTZLEUBDWWwG3-ojzJNyLNxc6EzNH-5fVKARrTSxBVb7UQgAyXqn8Dz6MDLHy9cLHxRcb859HfUEFIEzXFFFU_4PCeh5befPRryqZ-vQItU" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEg4Nw0kvj6j64df8Ag1rVx2zZ5lvKDGa7u0lgPZGR-yx6icLgV79gu5KTGF8fzjDjopyC-XbKmI-QYgidvR1BVmXwLmvvl6cd8as8mPUF6hzKn_3maanFPWfeDGVZANZCzwoi-E-m5aamvLba60M3HdctJd8EvLVBxPAbAs2ozR6g5QRq1qxC0zRYiSG8Y" alt="001">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhSe4LSboWYPL_3bsZEjd0EUsizXWjk71YIP5MxgE8Chs7ZyXpoWveTfkPjsqXAoicaBLnSZBGgZqXTl53Vsj7wK9kSLelvh6mCrrgtWqrdhGG3DT3N7dvfFBHRlNzq76QeYWFxdmhdMAvfd9R-zT3VIQtkTBaO7D3EwKXmJYw6BePHEQV5UX2kRPHz6CI" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj9JqU-3jqQhqZeQiOi3LRXzj_RtmQFJ5JlOqgi7VgKAdkRom0GorVDIWUa4WbNFn6tpj2Y6cTH9J0N1_4VStTJ3WTAjR3jMtSvA7E8CnnIVP4DmuvnB4XouquRamm9ETS-s7xha91Ad7UzRpr9lPS9NeWO16pvMGp5Lh3VL9JEZI6JhuWeKcjbPi5XzUw" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjy_61qR4rditxq08-AG3DA_JEmjlkMyo-zMq8Sl80_kvOh3Agkok1P_CD49C6DZIkadzXkA9Tj9akGaHE3lSFp8XpW0rrze88YVnq2Xj4h6NNtoCvDbyFjv0A_RSg8hFZFZ-v7y0CQlBb727PdpIT-_9A2Cvac-eoJq6cMMwnu8oIUdi4C_iBQkHozwFw" alt="">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi7PhRPKwGn25kduTWjVjWoTPh5466u22tpFqL5nWfOyTVFe42n0f2nxm9arxZnV5fjH9tULu5EyHWa80q3dZ_4lSfggb5IGTjfXr0lnPDonhMIvRIo2ASafiokea0voUaj7Cwcg88lf8PV51lPT9RNz9lw2LnOBlpqAF3aeLy2YUzhG649hmJm7MBhUQc" alt="">
+
+        
+    </div>
+
+    <h1 style="color: rgb(180, 65, 71); background-color: #b0ceb0; border: 2px solid #C1FFC1; border-radius: 15px; padding: 10px;">Một số video văn nghệ năm 2024-2025</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PshaBsdSleE?si=gnfx3Us6A4C4vAPz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4DzLzhh5RUo?si=KjOxed2mztcYgoK5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x7DN4lxdwu0?si=8xWYweg5XB-Sek9d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fLUtNBFxIks?si=bHkYZIom0uzzcrO-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
